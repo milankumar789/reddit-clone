@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html.dark {
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f5f7fa;
+  color: #111827;
+  transition: 0.3s ease;
+}
+
+html.dark body {
+  background: #0f172a;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
